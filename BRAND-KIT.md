@@ -1,4 +1,4 @@
-# Brand Kit — Cricket Residential Electricians
+# Brand Kit — Cricket Residential Electricians - Spicewood
 
 > This file defines the unique design identity for this brand.
 > Any agent working on this website MUST follow these specifications.
@@ -8,20 +8,20 @@
 
 ## Brand Identity
 
-- **Brand**: Cricket Residential Electricians
+- **Brand**: Cricket Residential Electricians - Spicewood
 - **Category**: Electrician
-- **Locations**: 4
-- **Aesthetic Direction**: Clean Geometric
-- **Tone**: Precise, residential-friendly, trustworthy
+- **Service Area**: Spicewood, TX
+- **Aesthetic Direction**: Rustic Hill Country Modern
+- **Tone**: Reliable, community-focused, quality-driven
 
 ---
 
 ## Typography
 
-- **Display Font**: Plus Jakarta Sans
-- **Body Font**: DM Sans
+- **Display Font**: Lexend
+- **Body Font**: Work Sans
 
-Import via Google Fonts or next/font. Never substitute with Inter, Roboto, or system fonts.
+Import via Google Fonts or next/font. Never substitute with Plus Jakarta Sans, DM Sans, or other fonts.
 
 ---
 
@@ -29,29 +29,29 @@ Import via Google Fonts or next/font. Never substitute with Inter, Roboto, or sy
 
 ```css
 :root {
-  --brand-primary: oklch(0.42 0.14 145);
-  --brand-accent: oklch(0.58 0.18 50);
-  --brand-bg: oklch(0.985 0.003 145);
+  --brand-primary: oklch(0.38 0.13 35);
+  --brand-accent: oklch(0.55 0.17 190);
+  --brand-bg: oklch(0.987 0.002 35);
 }
 ```
 
-Use oklch color space. These are the ONLY brand colors — derive all UI shades from these three.
+Use oklch color space. These are the ONLY brand colors — derive all UI shades from these three. Warm terracotta primary with sky blue accent.
 
 ---
 
 ## Layout Specification
 
-- **Hero Layout**: Type 8
-- **Section Order**: hero → services → about → process → reviews → faq → contact
-- **Card Style**: rounded-md, dotted-border, hover:solid-border
-- **Animation Family**: fade-in-subtle
-- **Navigation Style**: Type 1
+- **Hero Layout**: Type 3
+- **Section Order**: hero → about → services → gallery → reviews → process → faq → contact
+- **Card Style**: rounded-sm, border-left-accent, hover:bg-lift
+- **Animation Family**: fade-in-staggered
+- **Navigation Style**: Type 3
 
 ---
 
 ## Design Differentiator
 
-Text-first minimal hero with oversized typography, image below fold. Forest green + warm amber. Dotted borders become solid on hover. Clean geometric icons. Cricket-green throughout feels residential and natural.
+Full-width hero image with left-aligned text overlay. Warm terracotta + sky blue. Cards feature thick left border accent. Earthy, approachable aesthetic. Gallery section prominent. Feels authentic to Hill Country community values. Distinct from both main Cricket and San Antonio versions.
 
 ---
 
@@ -59,12 +59,12 @@ Text-first minimal hero with oversized typography, image below fold. Forest gree
 
 | Dimension | Score |
 |-----------|-------|
-| Aesthetic Impact | 4/5 |
+| Aesthetic Impact | 5/5 |
 | Context Fit | 5/5 |
 | Implementation Feasibility | 5/5 |
 | Performance Safety | 5/5 |
-| Consistency Risk | 1/5 |
-| **Total DFII** | **13/15** |
+| Consistency Risk | 0/5 |
+| **Total DFII** | **15/15** |
 
 ---
 
