@@ -139,3 +139,57 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
 export function getAllBlogSlugs(): string[] {
   return blogPosts.map((post) => post.slug);
 }
+
+
+export const posts = [
+  {
+    "title": "Common Electrical Problems",
+    "slug": "common-electrical-problems",
+    "date": "2026-04-05",
+    "excerpt": "Common Electrical Problems. Professional insights and best practices for your home.",
+    "content": "# Common Electrical Problems\n\nelectrical service is essential for homeowner peace of mind. Our team at Cricket Residential Electricians - Spicewood provides expert guidance.\n\n## What You Should Know\n\nRegular maintenance prevents costly problems. Professional service ensures quality results.\n\n## Contact Us\n\nLet Cricket Residential Electricians - Spicewood help with your electrical service needs.",
+    "author": "MerlinoMarketing Content Team",
+    "category": "Electrical",
+    "image": "/images/blog/common-electrical-problems.jpg"
+  },
+  {
+    "title": "Does My Home Need Panel Upgrade",
+    "slug": "does-my-home-need-panel-upgrade",
+    "date": "2026-03-29",
+    "excerpt": "Does My Home Need Panel Upgrade. Professional insights and best practices for your home.",
+    "content": "# Does My Home Need Panel Upgrade\n\nelectrical service is essential for homeowner peace of mind. Our team at Cricket Residential Electricians - Spicewood provides expert guidance.\n\n## What You Should Know\n\nRegular maintenance prevents costly problems. Professional service ensures quality results.\n\n## Contact Us\n\nLet Cricket Residential Electricians - Spicewood help with your electrical service needs.",
+    "author": "MerlinoMarketing Content Team",
+    "category": "Electrical",
+    "image": "/images/blog/does-my-home-need-panel-upgrade.jpg"
+  },
+  {
+    "title": "Electrical Safety for Homeowners",
+    "slug": "electrical-safety-for-homeowners",
+    "date": "2026-03-22",
+    "excerpt": "Electrical Safety for Homeowners. Professional insights and best practices for your home.",
+    "content": "# Electrical Safety for Homeowners\n\nelectrical service is essential for homeowner peace of mind. Our team at Cricket Residential Electricians - Spicewood provides expert guidance.\n\n## What You Should Know\n\nRegular maintenance prevents costly problems. Professional service ensures quality results.\n\n## Contact Us\n\nLet Cricket Residential Electricians - Spicewood help with your electrical service needs.",
+    "author": "MerlinoMarketing Content Team",
+    "category": "Electrical",
+    "image": "/images/blog/electrical-safety-for-homeowners.jpg"
+  },
+  {
+    "title": "Understanding Circuit Breakers",
+    "slug": "understanding-circuit-breakers",
+    "date": "2026-03-15",
+    "excerpt": "Understanding Circuit Breakers. Professional insights and best practices for your home.",
+    "content": "# Understanding Circuit Breakers\n\nelectrical service is essential for homeowner peace of mind. Our team at Cricket Residential Electricians - Spicewood provides expert guidance.\n\n## What You Should Know\n\nRegular maintenance prevents costly problems. Professional service ensures quality results.\n\n## Contact Us\n\nLet Cricket Residential Electricians - Spicewood help with your electrical service needs.",
+    "author": "MerlinoMarketing Content Team",
+    "category": "Electrical",
+    "image": "/images/blog/understanding-circuit-breakers.jpg"
+  },
+  {
+    "title": "Why Professional Inspections Matter",
+    "slug": "why-professional-inspections-matter",
+    "date": "2026-03-08",
+    "excerpt": "Why Professional Inspections Matter. Professional insights and best practices for your home.",
+    "content": "# Why Professional Inspections Matter\n\nelectrical service is essential for homeowner peace of mind. Our team at Cricket Residential Electricians - Spicewood provides expert guidance.\n\n## What You Should Know\n\nRegular maintenance prevents costly problems. Professional service ensures quality results.\n\n## Contact Us\n\nLet Cricket Residential Electricians - Spicewood help with your electrical service needs.",
+    "author": "MerlinoMarketing Content Team",
+    "category": "Electrical",
+    "image": "/images/blog/why-professional-inspections-matter.jpg"
+  }
+];
