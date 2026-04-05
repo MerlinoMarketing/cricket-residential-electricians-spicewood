@@ -1,4 +1,7 @@
+import { loadMarkdownBlogPosts } from "@/lib/content";
 export interface BlogPost {
+const _mdPosts = typeof window === "undefined" ? loadMarkdownBlogPosts() : [];
+
   slug: string;
   title: string;
   excerpt: string;
@@ -9,7 +12,7 @@ export interface BlogPost {
   content: string[];
 }
 
-export const blogPosts: BlogPost[] = [
+export const blogPosts: BlogPost[] = [..._mdPosts, 
   {
     slug: "signs-your-electrical-panel-needs-upgrading",
     title: "7 Signs Your Electrical Panel Needs Upgrading",
